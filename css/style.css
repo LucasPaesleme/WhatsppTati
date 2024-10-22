@@ -96,9 +96,12 @@ button:hover::before {
 }
 
 /* Breakpoints */
-@media (max-width: 1200px) { 
+@media (max-width: 1280px) { 
     .background::before {
-        background-position: top center; 
+        background-position: center center; 
+    }
+    .whats-container{
+        margin-top: -4rem;
     }
 }
 
@@ -110,12 +113,14 @@ button:hover::before {
 
 @media (max-width: 768px) { /* Tablets */
     .background::before {
+        background-size: 150%;
         background-position: bottom center; 
     }
 }
 
 @media (max-width: 576px) { /* Mobile */
     .background::before {
+        background-size: 150%;
         background-position: center center; 
         opacity: 0.6; 
     }
