@@ -121,7 +121,17 @@ button:hover::before {
 @media (max-width: 576px) { /* Mobile */
     .background::before {
         background-size: 150%;
-        background-position: center center; 
-        opacity: 0.6; 
+
+    }
+}
+
+@media (max-width: 375px){
+    .background::before {
+        background-size: 150%;
+
+    }
+    .whats-container{
+        margin-top: -1rem;
+        font-size: 10px;
     }
 }
